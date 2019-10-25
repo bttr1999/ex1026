@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>xxxxxx</title>
+
+
+<link rel="stylesheet" media="(max-width: 640px)" href="ex_mob1.css">
+
+
+    <style type="text/css">
+    #rekishi {
+      width: 300px;
+      height: 250px;
+      margin: 0 auto;
+      text-align: left;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #rekishi img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#rekishi';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+
+
+    <style type="text/css">
+    #onsen {
+      width: 300px;
+      height: 250px;
+        margin: 0 auto;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #onsen img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#onsen';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+    <style type="text/css">
+    #entertainment {
+      width: 300px;
+      height: 250px;
+        margin: 0 auto;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #entertainment img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#entertainment';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+    <style type="text/css">
+    #modern {
+      width: 300px;
+      height: 250px;
+        margin: 0 auto;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #modern img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#modern';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+
+    <style type="text/css">
+    #sizen {
+      width: 300px;
+      height: 250px;
+
+        margin: 0 auto;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #sizen img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#sizen';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+    <style type="text/css">
+    #hiroba {
+        width: 300px;
+        height: 240px;
+        margin: 0 auto;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #hiroba img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#hiroba';
+        var fadeSpeed = 1600;
+        var switchDelay = 1400;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
+
+
+  </head>
+
+
+
+
+  <body>
+
+  <div class="image1">
+    <div id="rekishi">
+    <img src="ie.jpg" width=250px; alt="">
+    <img src="shiro4.jpg" width=250px; alt="">
+    <img src="torii2.jpg" width=250px; alt="">
+    <img src="tera.jpg" width=250px; alt="">
+    <img src="machinami.jpg" width=250px; alt="">
+    <img src="torii3.jpg" width=250px; alt="">
+    </div>
+
+
+    <div id="onsen">
+    <img src="onsen.jpg" width=250px;  alt="">
+    <img src="onsen2.jpg" width=250px; alt="">
+    <img src="onsen3.jpg" width=250px; alt="">
+    <img src="onsen8.jpg" width=250px; alt="">
+    <img src="onsen5.jpg" width=250px; alt="">
+    <img src="onsen6.jpg" width=250px; alt="">
+    </div>
+  </div>
+
+<div class="image2">
+    <div id="entertainment">
+    <img src="entertainment1.jpg" width=250px; alt="">
+    <img src="entertainment2.jpg" width=250px; alt="">
+    <img src="entertainment3.jpg" width=250px; alt="">
+    <img src="entertainment4.jpg" width=250px; alt="">
+    <img src="entertainment5.jpg" width=250px; alt="">
+    <img src="entertainment6.jpg" width=250px; alt="">
+    </div>
+
+    <div id="modern">
+    <img src="modern1.jpg" width=250px; alt="">
+    <img src="modern2.jpg" width=250px; alt="">
+    <img src="modern3.jpg" width=250px; alt="">
+    <img src="modern4.jpg" width=250px; alt="">
+    <img src="modern5.jpg" width=250px; alt="">
+    <img src="modern6.jpg" width=250px; alt="">
+    </div>
+</div>
+
+<div class="image3">
+    <div id="sizen">
+    <img src="hiroba1.jpg" width=250px; alt="">
+    <img src="hiroba2.jpg" width=250px; alt="">
+    <img src="hiroba3.jpg" width=250px; alt="">
+    <img src="hiroba4.jpg" width=250px; alt="">
+    <img src="hiroba5.jpg" width=250px; alt="">
+    <img src="hiroba6.jpg" width=250px; alt="">
+    </div>
+    <div id="hiroba">
+    <img src="sizen1.jpg" width=250px; alt="">
+    <img src="sizen2.jpg" width=250px; alt="">
+    <img src="sizen3.jpg" width=250px; alt="">
+    <img src="sizen4.jpg" width=250px; alt="">
+    <img src="sizen5.jpg" width=250px; alt="">
+    <img src="sizen6.jpg" width=250px; alt="">
+    </div>
+  </div>
+
+  </body>
+</html>
